@@ -1,4 +1,4 @@
 resources:
-- base/namespace.yaml
+# - base/namespace.yaml
 - base/subscription.yaml
 - base/multiclusterhub.yaml
