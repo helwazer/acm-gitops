@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: multiclusterhub-operator
+  namespace: open-cluster-management
+spec:
+  channel: stable
+  name: multiclusterhub-operator
+  source: redhat-operators
+  sourceNamespace: openshift-marketplace
